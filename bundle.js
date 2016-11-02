@@ -21,15 +21,15 @@ var minixhr  = require('minixhr')
 var chart    = require('chart.js')
 
 ///THEME
-var font       = 'Roboto Condensed, sans-serif'
-var yellow     = 'hsla(52,35%,63%,1)'
-var white      = 'hsla(120,24%,96%,1)'
-var violet     = 'hsla(329,25%,45%,1)'
-var lightBrown = 'hsla(29,21%,67%,1)'
-var darkBrown  = 'hsla(13,19%,45%,1)'
+var font       = 'Itim, cursive;'
+var yellow     = '#F1E0C5'
+var white      = '#BFC0C0'
+var violet     = '#6B818C'
+var lightBrown = '#B1B6A6'
+var darkBrown  = '#628395'
 
 ///LOADING FONT
-var links = ['https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet']
+var links = ['https://fonts.googleapis.com/css?family=Itim" rel="stylesheet']
 var font = yo`<link href=${links[0]} rel='stylesheet' type='text/css'>`
 document.head.appendChild(font)
 
